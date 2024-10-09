@@ -29,6 +29,8 @@ OK, here we go.
 
 ## Introduction and Goals
 
+See submitted project proposal
+
 The goal of my project is to answer the question, What is...?
 
 The methods I will use to do this are...
