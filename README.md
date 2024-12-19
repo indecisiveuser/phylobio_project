@@ -513,6 +513,9 @@ VisualizeMatching(MatchingSplitDistance, rb_clip, rb_realign, edge.cex=FALSE)
 Again, one observes that the trees are very similar with small clade
 rearrangements.
 
+However, it should be noted that the mixing in all Bayesian
+mitochondrial models could be improved.
+
 # Discussion
 
 In summary, the quality (and quantity) of the data used in any

@@ -335,6 +335,8 @@ VisualizeMatching(MatchingSplitDistance, rb_clip, rb_realign, edge.cex=FALSE)
 
 Again, one observes that the trees are very similar with small clade rearrangements.
 
+However, it should be noted that the mixing in all Bayesian mitochondrial models could be improved.
+
 # Discussion
 
 In summary, the quality (and quantity) of the data used in any phylogenetic inference model is vital to the overall robustness of the model. More than one gene is therefore preferable to build a strong model. This was shown via the difference in quality between the 18S and mitochondria base ML trees. Further mitochondria dataset analyses showed that the Bayesian GTR tree was more robust than the ML tree to ablation, and realignment of data subsets. The largest challenge was data processing. In particular, curating a dataset that would have better bootstrap support and posterior probabilities compared to the 18S dataset proved to be a challenge. Future directions could include testing a different clade, more and/or different genes, and other phylogenetic tree inferance software such as RAxML.
