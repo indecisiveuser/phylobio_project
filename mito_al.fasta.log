@@ -1,0 +1,403 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Nov  8 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    r209u05n01.mccleary.ycrc.yale.edu (AVX512, FMA3, 187 GB RAM)
+Command: iqtree2 -s mito_al.fasta -bb 1000 -nt AUTO
+Seed:    819562 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Dec 17 23:30:03 2024
+Kernel:  AVX+FMA - auto-detect threads (12 CPU cores detected)
+
+Reading alignment file mito_al.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 28 sites contain only gaps or ambiguous characters.
+Alignment has 103 sequences with 25730 columns, 16351 distinct patterns
+14198 parsimony-informative, 2715 singleton sites, 8817 constant sites
+                               Gap/Ambiguity  Composition  p-value
+   1  Acleris_fimbriana               38.08%    failed      0.00%
+   2  Adoxophyes_honmai               39.06%    failed      0.00%
+   3  Adoxophyes_orana                40.37%    failed      0.00%
+   4  Adscita_geryon                  40.44%    failed      0.00%
+   5  Aethes_cnicana                  39.13%    failed      0.00%
+   6  Aethes_tesserana                39.61%    failed      0.00%
+   7  Amesia_sanguiflua               40.91%    failed      0.00%
+   8  Ancylis_achatana                37.82%    failed      0.00%
+   9  Ancylis_sativa                  40.68%    failed      0.00%
+  10  Aphelia_paleana                 39.39%    failed      0.00%
+  11  Apoda_limacodes                 40.16%    failed      0.00%
+  12  Apotomis_betuletana             38.58%    failed      0.00%
+  13  Archips_podanus                 39.91%    failed      0.00%
+  14  Bactra_venosana                 39.52%    failed      0.00%
+  15  Bembecia_ichneumoniformis       40.45%    failed      0.00%
+  16  Cacoecimorpha_pronubana         39.04%    failed      0.00%
+  17  Carposina_sasakii               39.33%    failed      0.00%
+  18  Celypha_flavipalpana            39.77%    failed      0.00%
+  19  Celypha_sp.                     39.02%    failed      0.00%
+  20  Cerace_xanthocosma              40.37%    failed      0.00%
+  21  Chalcidica_minea                39.80%    failed      0.00%
+  22  Chibiraga_houshuaii             39.81%    failed      0.00%
+  23  Choreutis_emplecta              42.80%    failed      0.00%
+  24  Choreutis_nemorana              39.70%    failed      0.00%
+  25  Choristoneura_biennis           39.84%    failed      0.00%
+  26  Choristoneura_conflictana       40.20%    failed      0.00%
+  27  Choristoneura_fumiferana        40.46%    failed      0.00%
+  28  Choristoneura_longicellana      38.75%    failed      0.00%
+  29  Choristoneura_metasequoiacola   41.20%    failed      0.00%
+  30  Choristoneura_murinana          39.81%    failed      0.00%
+  31  Choristoneura_occidentalis      40.47%    failed      0.00%
+  32  Choristoneura_pinus             39.93%    failed      0.00%
+  33  Choristoneura_rosaceana         39.84%    failed      0.00%
+  34  Clepsis_pallidana               39.07%    failed      0.00%
+  35  Cnidocampa_flavescens           40.12%    failed      0.00%
+  36  Cochylidia_moguntiana           40.02%    failed      0.00%
+  37  Cochylimorpha_cultana           40.35%    failed      0.00%
+  38  Cydia_pomonella                 40.72%    failed      0.00%
+  39  Endoxyla_cinereus               40.59%    failed      0.00%
+  40  Eogystia_hippophaecolus         40.03%    failed      0.00%
+  41  Epiblema_foenella               37.87%    failed      0.00%
+  42  Epinotia_bilunana               40.18%    failed      0.00%
+  43  Epinotia_brunnichana            38.99%    failed      0.00%
+  44  Epinotia_demarniana             39.92%    failed      0.00%
+  45  Epinotia_nisella                39.98%    failed      0.00%
+  46  Epinotia_ramella                40.01%    failed      0.00%
+  47  Epinotia_rubiginosana           40.32%    failed      0.00%
+  48  Epiphyas_postvittana            40.11%    failed      0.00%
+  49  Erasmia_pulchella               40.94%    failed      0.00%
+  50  Eterusia_aedea                  40.94%    failed      0.00%
+  51  Eugnosta_dives                  40.18%    failed      0.00%
+  52  Grapholita_delineana            39.37%    failed      0.00%
+  53  Grapholita_dimorpha             38.54%    failed      0.00%
+  54  Grapholita_funebrana            39.81%    failed      0.00%
+  55  Grapholita_molesta              38.69%    failed      0.00%
+  56  Histia_rhodope                  40.89%    failed      0.00%
+  57  Illiberis_pruni                 40.72%    failed      0.00%
+  58  Illiberis_ulmivora              40.40%    failed      0.00%
+  59  Kennelia_xylinana               38.74%    failed      0.00%
+  60  Latoia_hilarata                 40.51%    failed      0.00%
+  61  Leguminivora_glycinivorella     39.74%    failed      0.00%
+  62  Loboschiza_koenigiana           39.99%    failed      0.00%
+  63  Matsumuraeses_phaseoli          40.42%    failed      0.00%
+  64  Meiligma_sp.                    39.08%    failed      0.00%
+  65  Monema_flavescens               40.16%    failed      0.00%
+  66  Narosa_fulgens                  40.55%    failed      0.00%
+  67  Olethreutes_sp.                 38.68%    failed      0.00%
+  68  Pandemis_cinnamomeana           38.50%    failed      0.00%
+  69  Pandemis_corylana               39.64%    failed      0.00%
+  70  Parasa_consocia                 39.57%    failed      0.00%
+  71  Parasa_lepida                   39.47%    failed      0.00%
+  72  Phauda_flammans                 39.88%    failed      0.00%
+  73  Phiaris_dolosana                39.52%    failed      0.00%
+  74  Phlossa_conjucta                39.55%    failed      0.00%
+  75  Phragmataecia_castaneae         39.77%    failed      0.00%
+  76  Pidorus_atratus                 40.21%    failed      0.00%
+  77  Quasithosea_sythoffi            39.63%    failed      0.00%
+  78  Retinia_pseudotsugaicola        40.61%    failed      0.00%
+  79  Rhyacionia_leptotubula          38.30%    failed      0.00%
+  80  Rhyacionia_pinicolana           38.54%    failed      0.00%
+  81  Sesia_apiformis                 40.13%    failed      0.00%
+  82  Sesia_siningensis               39.94%    failed      0.00%
+  83  Setora_sinensis                 39.65%    failed      0.00%
+  84  Spilonota_lechriaspis           40.27%    failed      0.00%
+  85  Synanthedon_formicaeformis      38.54%    failed      0.00%
+  86  Thaumatotibia_leucotreta        40.68%    failed      0.00%
+  87  Tortricodes_alternella          38.87%    failed      0.00%
+  88  Urodus_decens                   40.70%    failed      0.00%
+  89  Zeuzera_multistrigata           40.46%    failed      0.00%
+  90  Zeuzera_pyrina                  40.61%    failed      0.00%
+  91  Zygaena_carniolica              39.52%    failed      0.00%
+  92  Zygaena_ephialtes               39.85%    failed      0.00%
+  93  Zygaena_exulans                 39.34%    failed      0.00%
+  94  Zygaena_filipendulae            39.56%    failed      0.00%
+  95  Zygaena_loti                    39.32%    failed      0.00%
+  96  Zygaena_purpuralis              39.97%    failed      0.00%
+  97  Zygaena_sarpedon                37.88%    failed      0.00%
+  98  Zygaena_viciae                  39.65%    failed      0.00%
+  99  Polyploca_ridens                40.39%    failed      0.00%
+ 100  Platyedra_subcinerea            40.74%    failed      0.00%
+ 101  Parnassius_tianschanicus        40.02%    failed      0.00%
+ 102  Plutella_armoraciae             39.50%    failed      0.00%
+ 103  Paraclemensia_caerulea          40.99%    failed      0.00%
+****  TOTAL                           39.81%  103 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.122 seconds
+Measuring multi-threading efficiency up to 12 CPU cores
+Increase to 10 rounds for branch lengths
+4 trees examined
+Threads: 1 / Time: 15.988 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -827576
+Threads: 2 / Time: 8.621 sec / Speedup: 1.855 / Efficiency: 93% / LogL: -827576
+Threads: 3 / Time: 5.941 sec / Speedup: 2.691 / Efficiency: 90% / LogL: -827576
+Threads: 4 / Time: 4.646 sec / Speedup: 3.441 / Efficiency: 86% / LogL: -827576
+Threads: 5 / Time: 4.947 sec / Speedup: 3.232 / Efficiency: 65% / LogL: -827576
+Threads: 6 / Time: 4.343 sec / Speedup: 3.682 / Efficiency: 61% / LogL: -827576
+Threads: 7 / Time: 3.860 sec / Speedup: 4.142 / Efficiency: 59% / LogL: -827576
+Threads: 8 / Time: 3.526 sec / Speedup: 4.535 / Efficiency: 57% / LogL: -827576
+Threads: 9 / Time: 3.253 sec / Speedup: 4.915 / Efficiency: 55% / LogL: -827576
+Threads: 10 / Time: 3.651 sec / Speedup: 4.379 / Efficiency: 44% / LogL: -827576
+BEST NUMBER OF THREADS: 9
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -503821.163
+2. Current log-likelihood: -503819.923
+Optimal log-likelihood: -503819.130
+Rate parameters:  A-C: 1.16467  A-G: 8.16663  A-T: 4.31525  C-G: 1.84911  C-T: 10.37447  G-T: 1.00000
+Base frequencies:  A: 0.401  C: 0.104  G: 0.091  T: 0.403
+Proportion of invariable sites: 0.081
+Gamma shape alpha: 0.683
+Parameters optimization took 2 rounds (1.044 sec)
+Time for fast ML tree search: 9.305 seconds
+
+NOTE: ModelFinder requires 608 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 25730) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         549937.947   211 1100297.895  1100301.401  1102018.687
+  2  GTR+F+I       537597.029   212 1075618.057  1075621.597  1077347.005
+  3  GTR+F+G4      504092.093   212 1008608.186  1008611.725  1010337.133
+  4  GTR+F+I+G4    503838.090   213 1008102.180  1008105.753  1009839.283
+  5  GTR+F+R2      511193.526   213 1022813.051  1022816.624  1024550.154
+  6  GTR+F+R3      504427.977   215 1009285.953  1009289.594  1011039.367
+  7  GTR+F+R4      503159.893   217 1006753.786  1006757.494  1008523.510
+  8  GTR+F+R5      502911.695   219 1006261.391  1006265.168  1008047.426
+  9  GTR+F+R6      502862.341   221 1006166.682  1006170.529  1007969.028
+ 10  GTR+F+R7      502834.541   223 1006115.082  1006118.999  1007933.739
+ 11  GTR+F+R8      502825.390   225 1006100.781  1006104.768  1007935.749
+ 23  SYM+R7        512977.584   220 1026395.168  1026398.980  1028189.359
+ 24  SYM+R8        512971.865   222 1026387.729  1026391.611  1028198.231
+ 36  TVM+F+R7      502930.902   222 1006305.804  1006309.686  1008116.306
+WARNING: Log-likelihood -503073 of TVM+F+R8 worse than TVM+F+R7 -502931
+ 37  TVM+F+R8      503072.783   224 1006593.566  1006597.518  1008420.378
+ 49  TVMe+R7       513392.967   219 1027223.934  1027227.712  1029009.970
+ 50  TVMe+R8       513390.355   221 1027222.710  1027226.557  1029025.057
+ 62  TIM3+F+R7     505206.082   221 1010854.163  1010858.010  1012656.510
+WARNING: Log-likelihood -505350 of TIM3+F+R8 worse than TIM3+F+R7 -505206
+ 63  TIM3+F+R8     505350.438   223 1011146.875  1011150.792  1012965.532
+ 75  TIM3e+R7      531159.326   218 1062754.652  1062758.394  1064532.532
+ 76  TIM3e+R8      531157.272   220 1062754.544  1062758.356  1064548.735
+ 88  TIM2+F+R7     504961.983   221 1010365.967  1010369.813  1012168.313
+WARNING: Log-likelihood -505091 of TIM2+F+R8 worse than TIM2+F+R7 -504962
+ 89  TIM2+F+R8     505091.115   223 1010628.231  1010632.148  1012446.888
+101  TIM2e+R7      528874.713   218 1058185.426  1058189.169  1059963.306
+102  TIM2e+R8      528871.340   220 1058182.680  1058186.492  1059976.870
+114  TIM+F+R7      503043.134   221 1006528.267  1006532.114  1008330.613
+WARNING: Log-likelihood -503188 of TIM+F+R8 worse than TIM+F+R7 -503043
+115  TIM+F+R8      503187.866   223 1006821.733  1006825.650  1008640.390
+127  TIMe+R7       519756.864   218 1039949.729  1039953.472  1041727.609
+128  TIMe+R8       519756.575   220 1039953.149  1039956.961  1041747.340
+140  TPM3u+F+R7    505314.249   220 1011068.497  1011072.309  1012862.688
+WARNING: Log-likelihood -505460 of TPM3u+F+R8 worse than TPM3u+F+R7 -505314
+141  TPM3u+F+R8    505460.119   222 1011364.238  1011368.120  1013174.740
+153  TPM3+F+R7     505314.249   220 1011068.497  1011072.309  1012862.688
+WARNING: Log-likelihood -505460 of TPM3+F+R8 worse than TPM3+F+R7 -505314
+154  TPM3+F+R8     505460.120   222 1011364.241  1011368.122  1013174.742
+166  TPM2u+F+R7    505166.672   220 1010773.344  1010777.156  1012567.534
+WARNING: Log-likelihood -505300 of TPM2u+F+R8 worse than TPM2u+F+R7 -505167
+167  TPM2u+F+R8    505300.434   222 1011044.868  1011048.750  1012855.370
+179  TPM2+F+R7     505166.672   220 1010773.344  1010777.156  1012567.534
+WARNING: Log-likelihood -505300 of TPM2+F+R8 worse than TPM2+F+R7 -505167
+180  TPM2+F+R8     505300.311   222 1011044.622  1011048.503  1012855.123
+192  K3Pu+F+R7     503202.166   220 1006844.333  1006848.145  1008638.524
+WARNING: Log-likelihood -503346 of K3Pu+F+R8 worse than K3Pu+F+R7 -503202
+193  K3Pu+F+R8     503345.965   222 1007135.930  1007139.812  1008946.432
+205  K3P+R7        520187.884   217 1040809.768  1040813.477  1042579.493
+206  K3P+R8        520187.248   219 1040812.496  1040816.274  1042598.532
+218  TN+F+R7       506896.793   220 1014233.586  1014237.398  1016027.777
+WARNING: Log-likelihood -507038 of TN+F+R8 worse than TN+F+R7 -506897
+219  TN+F+R8       507038.062   222 1014520.124  1014524.006  1016330.626
+231  TNe+R7        543558.427   217 1087550.854  1087554.563  1089320.579
+WARNING: Log-likelihood -543569 of TNe+R8 worse than TNe+R7 -543558
+232  TNe+R8        543569.485   219 1087576.969  1087580.747  1089363.005
+244  HKY+F+R7      507039.777   219 1014517.555  1014521.332  1016303.590
+WARNING: Log-likelihood -507179 of HKY+F+R8 worse than HKY+F+R7 -507040
+245  HKY+F+R8      507178.699   221 1014799.398  1014803.245  1016601.745
+257  K2P+R7        543970.985   216 1088373.969  1088377.644  1090135.539
+WARNING: Log-likelihood -543984 of K2P+R8 worse than K2P+R7 -543971
+258  K2P+R8        543984.199   218 1088404.399  1088408.142  1090182.279
+270  F81+F+R7      516908.041   218 1034252.081  1034255.824  1036029.961
+WARNING: Log-likelihood -517026 of F81+F+R8 worse than F81+F+R7 -516908
+271  F81+F+R8      517026.117   220 1034492.234  1034496.046  1036286.425
+283  JC+R7         544488.586   215 1089407.173  1089410.813  1091160.587
+284  JC+R8         544485.045   217 1089404.090  1089407.799  1091173.815
+Akaike Information Criterion:           GTR+F+R8
+Corrected Akaike Information Criterion: GTR+F+R8
+Bayesian Information Criterion:         GTR+F+R7
+Best-fit model: GTR+F+R7 chosen according to BIC
+
+All model information printed to mito_al.fasta.model.gz
+CPU time for ModelFinder: 35937.731 seconds (9h:58m:57s)
+Wall-clock time for ModelFinder: 4097.395 seconds (1h:8m:17s)
+Generating 1000 samples for ultrafast bootstrap (seed: 819562)...
+
+NOTE: 444 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -502834.541
+2. Current log-likelihood: -502770.571
+3. Current log-likelihood: -502769.134
+4. Current log-likelihood: -502768.055
+5. Current log-likelihood: -502767.251
+6. Current log-likelihood: -502766.643
+7. Current log-likelihood: -502766.309
+8. Current log-likelihood: -502766.021
+9. Current log-likelihood: -502765.884
+10. Current log-likelihood: -502765.749
+11. Current log-likelihood: -502765.632
+12. Current log-likelihood: -502765.522
+Optimal log-likelihood: -502765.366
+Rate parameters:  A-C: 1.11116  A-G: 8.08397  A-T: 4.28558  C-G: 1.84676  C-T: 10.26715  G-T: 1.00000
+Base frequencies:  A: 0.401  C: 0.104  G: 0.091  T: 0.403
+Site proportion and rates:  (0.310,0.051) (0.094,0.218) (0.163,0.519) (0.120,0.883) (0.142,1.445) (0.121,2.590) (0.050,5.085)
+Parameters optimization took 12 rounds (38.914 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.229904 sec (of wall-clock time) 1.846492 sec(of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing RapidNJ tree took 0.044796 sec (of wall-clock time) 0.140618 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -505854.344
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 12.521 second
+Computing log-likelihood of 98 initial trees ... 13.776 seconds
+Current best score: -502765.366
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -502711.132
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -502707.595
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 6: -502693.431
+Iteration 10 / LogL: -502720.215 / Time: 0h:2m:6s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 15: -502666.874
+Iteration 20 / LogL: -502735.899 / Time: 0h:2m:48s
+Finish initializing candidate tree set (19)
+Current best tree score: -502666.874 / CPU time: 124.223
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -502686.245 / Time: 0h:3m:18s (0h:9m:40s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 31: -502645.186
+Iteration 40 / LogL: -502667.717 / Time: 0h:3m:48s (0h:8m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 43: -502642.973
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -502642.660
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -502640.178
+Iteration 50 / LogL: -502640.178 / Time: 0h:4m:27s (0h:9m:5s left)
+Log-likelihood cutoff on original alignment: -502807.810
+Iteration 60 / LogL: -502649.318 / Time: 0h:4m:56s (0h:7m:31s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -502639.953
+Iteration 70 / LogL: -502648.931 / Time: 0h:5m:27s (0h:7m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 72: -502638.627
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -502636.680
+Iteration 80 / LogL: -502639.435 / Time: 0h:6m:4s (0h:7m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -502636.017
+Iteration 90 / LogL: -502688.448 / Time: 0h:6m:36s (0h:6m:45s left)
+Iteration 100 / LogL: -502638.757 / Time: 0h:7m:2s (0h:5m:45s left)
+Log-likelihood cutoff on original alignment: -502779.961
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -502669.610 / Time: 0h:7m:28s (0h:6m:10s left)
+Iteration 120 / LogL: -502651.229 / Time: 0h:7m:53s (0h:5m:18s left)
+Iteration 130 / LogL: -502668.752 / Time: 0h:8m:20s (0h:4m:31s left)
+Iteration 140 / LogL: -502656.061 / Time: 0h:8m:47s (0h:3m:47s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -502633.933
+Iteration 150 / LogL: -502662.766 / Time: 0h:9m:28s (0h:6m:6s left)
+Log-likelihood cutoff on original alignment: -502779.961
+Iteration 160 / LogL: -502636.499 / Time: 0h:9m:56s (0h:5m:22s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -502627.784
+Iteration 170 / LogL: -502638.289 / Time: 0h:13m:29s (0h:6m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 172: -502624.502
+Iteration 180 / LogL: -502681.160 / Time: 0h:14m:10s (0h:7m:16s left)
+Iteration 190 / LogL: -502661.067 / Time: 0h:14m:35s (0h:6m:19s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -502622.984
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 200: -502622.575
+Iteration 200 / LogL: -502622.575 / Time: 0h:15m:37s (0h:7m:51s left)
+Log-likelihood cutoff on original alignment: -502779.961
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.990
+Iteration 210 / LogL: -502639.039 / Time: 0h:16m:4s (0h:6m:55s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -502620.466
+Iteration 220 / LogL: -502724.268 / Time: 0h:16m:34s (0h:6m:3s left)
+Iteration 230 / LogL: -502639.412 / Time: 0h:17m:2s (0h:5m:12s left)
+Iteration 240 / LogL: -502650.845 / Time: 0h:17m:31s (0h:4m:23s left)
+Iteration 250 / LogL: -502629.851 / Time: 0h:17m:55s (0h:3m:36s left)
+Log-likelihood cutoff on original alignment: -502779.961
+Iteration 260 / LogL: -502651.041 / Time: 0h:18m:21s (0h:2m:50s left)
+Iteration 270 / LogL: -502624.356 / Time: 0h:18m:48s (0h:2m:5s left)
+Iteration 280 / LogL: -502683.845 / Time: 0h:19m:14s (0h:1m:22s left)
+Iteration 290 / LogL: -502742.658 / Time: 0h:19m:44s (0h:0m:40s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -502619.378
+Iteration 300 / LogL: -502619.378 / Time: 0h:20m:13s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -502760.438
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+TREE SEARCH COMPLETED AFTER 301 ITERATIONS / Time: 0h:20m:16s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -502619.378
+2. Current log-likelihood: -502619.014
+3. Current log-likelihood: -502618.942
+4. Current log-likelihood: -502618.874
+5. Current log-likelihood: -502618.823
+6. Current log-likelihood: -502618.771
+7. Current log-likelihood: -502618.719
+8. Current log-likelihood: -502618.669
+9. Current log-likelihood: -502618.619
+10. Current log-likelihood: -502618.581
+11. Current log-likelihood: -502618.560
+12. Current log-likelihood: -502618.537
+13. Current log-likelihood: -502618.503
+14. Current log-likelihood: -502618.466
+Optimal log-likelihood: -502618.455
+Rate parameters:  A-C: 1.13315  A-G: 8.33390  A-T: 4.39991  C-G: 1.88665  C-T: 10.59873  G-T: 1.00000
+Base frequencies:  A: 0.401  C: 0.104  G: 0.091  T: 0.403
+Site proportion and rates:  (0.293,0.048) (0.087,0.162) (0.197,0.489) (0.184,1.040) (0.126,1.928) (0.075,3.054) (0.039,5.522)
+Parameters optimization took 14 rounds (53.341 sec)
+BEST SCORE FOUND : -502618.455
+Creating bootstrap support values...
+Split supports printed to NEXUS file mito_al.fasta.splits.nex
+Total tree length: 20.612
+
+Total number of iterations: 301
+CPU time used for tree search: 10348.960 sec (2h:52m:28s)
+Wall-clock time used for tree search: 1171.901 sec (0h:19m:31s)
+Total CPU time used: 11189.566 sec (3h:6m:29s)
+Total wall-clock time used: 1269.786 sec (0h:21m:9s)
+
+Computing bootstrap consensus tree...
+Reading input file mito_al.fasta.splits.nex...
+103 taxa and 493 splits.
+Consensus tree written to mito_al.fasta.contree
+Reading input trees file mito_al.fasta.contree
+Log-likelihood of consensus tree: -502626.309
+
+Analysis results written to: 
+  IQ-TREE report:                mito_al.fasta.iqtree
+  Maximum-likelihood tree:       mito_al.fasta.treefile
+  Likelihood distances:          mito_al.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          mito_al.fasta.splits.nex
+  Consensus tree:                mito_al.fasta.contree
+  Screen log file:               mito_al.fasta.log
+
+Date and Time: Wed Dec 18 00:59:38 2024

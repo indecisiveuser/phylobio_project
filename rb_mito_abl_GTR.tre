@@ -1,0 +1,87 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=76;
+	Taxlabels
+		Adoxophyes_honmai
+		Adoxophyes_orana
+		Aethes_cnicana
+		Amesia_sanguiflua
+		Ancylis_achatana
+		Ancylis_sativa
+		Aphelia_paleana
+		Apoda_limacodes
+		Apotomis_betuletana
+		Archips_podanus
+		Cacoecimorpha_pronubana
+		Carposina_sasakii
+		Celypha_sp.
+		Cerace_xanthocosma
+		Chalcidica_minea
+		Chibiraga_houshuaii
+		Choreutis_emplecta
+		Choristoneura_biennis
+		Choristoneura_conflictana
+		Choristoneura_fumiferana
+		Choristoneura_longicellana
+		Choristoneura_metasequoiacola
+		Choristoneura_murinana
+		Choristoneura_pinus
+		Clepsis_pallidana
+		Cnidocampa_flavescens
+		Cochylimorpha_cultana
+		Cydia_pomonella
+		Endoxyla_cinereus
+		Epinotia_brunnichana
+		Epinotia_demarniana
+		Epinotia_rubiginosana
+		Epiphyas_postvittana
+		Erasmia_pulchella
+		Eterusia_aedea
+		Eugnosta_dives
+		Grapholita_delineana
+		Grapholita_funebrana
+		Grapholita_molesta
+		Histia_rhodope
+		Illiberis_pruni
+		Kennelia_xylinana
+		Latoia_hilarata
+		Leguminivora_glycinivorella
+		Loboschiza_koenigiana
+		Matsumuraeses_phaseoli
+		Meiligma_sp.
+		Monema_flavescens
+		Olethreutes_sp.
+		Pandemis_cinnamomeana
+		Pandemis_corylana
+		Paraclemensia_caerulea
+		Parnassius_tianschanicus
+		Phauda_flammans
+		Phiaris_dolosana
+		Phlossa_conjucta
+		Pidorus_atratus
+		Platyedra_subcinerea
+		Plutella_armoraciae
+		Polyploca_ridens
+		Quasithosea_sythoffi
+		Retinia_pseudotsugaicola
+		Rhyacionia_leptotubula
+		Rhyacionia_pinicolana
+		Sesia_apiformis
+		Setora_sinensis
+		Spilonota_lechriaspis
+		Tortricodes_alternella
+		Urodus_decens
+		Zeuzera_multistrigata
+		Zygaena_carniolica
+		Zygaena_ephialtes
+		Zygaena_filipendulae
+		Zygaena_purpuralis
+		Zygaena_sarpedon
+		Zygaena_viciae
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((((((((((Aphelia_paleana[&index=63]:0.052330[&brlen_95%_HPD={0.048416,0.056515}],Cacoecimorpha_pronubana[&index=7]:0.047955[&brlen_95%_HPD={0.044406,0.052234}])[&index=77,posterior=1.000000]:0.012353[&brlen_95%_HPD={0.010185,0.014461}],(Pandemis_cinnamomeana[&index=25]:0.035716[&brlen_95%_HPD={0.032283,0.038619}],Pandemis_corylana[&index=20]:0.032064[&brlen_95%_HPD={0.029005,0.03505}])[&index=78,posterior=1.000000]:0.027227[&brlen_95%_HPD={0.024385,0.03012}])[&index=79,posterior=1.000000]:0.018985[&brlen_95%_HPD={0.016182,0.021603}],Aethes_cnicana[&index=43]:0.072151[&brlen_95%_HPD={0.067661,0.077207}])[&index=80,posterior=0.822903]:0.009347[&brlen_95%_HPD={0.007186,0.011608}],Tortricodes_alternella[&index=53]:0.052890[&brlen_95%_HPD={0.047507,0.057044}])[&index=81,posterior=1.000000]:0.009830[&brlen_95%_HPD={0.007616,0.012245}],((((Epinotia_brunnichana[&index=44]:0.048347[&brlen_95%_HPD={0.044673,0.05181}],Epinotia_demarniana[&index=46]:0.036090[&brlen_95%_HPD={0.03293,0.039369}])[&index=82,posterior=1.000000]:0.021208[&brlen_95%_HPD={0.018328,0.023527}],Rhyacionia_pinicolana[&index=13]:0.058726[&brlen_95%_HPD={0.054525,0.063243}])[&index=83,posterior=1.000000]:0.014349[&brlen_95%_HPD={0.011862,0.016869}],Apotomis_betuletana[&index=36]:0.067570[&brlen_95%_HPD={0.063506,0.072398}])[&index=84,posterior=1.000000]:0.012524[&brlen_95%_HPD={0.01036,0.01495}],Ancylis_achatana[&index=39]:0.063366[&brlen_95%_HPD={0.059622,0.067954}])[&index=85,posterior=1.000000]:0.013231[&brlen_95%_HPD={0.010818,0.015716}])[&index=86,posterior=1.000000]:0.026088[&brlen_95%_HPD={0.020472,0.031668}],(((((Zygaena_carniolica[&index=48]:0.038718[&brlen_95%_HPD={0.035588,0.041983}],Zygaena_ephialtes[&index=55]:0.043308[&brlen_95%_HPD={0.039698,0.04639}])[&index=87,posterior=1.000000]:0.008283[&brlen_95%_HPD={0.006401,0.009989}],(Zygaena_purpuralis[&index=42]:0.037427[&brlen_95%_HPD={0.034295,0.040592}],Zygaena_sarpedon[&index=17]:0.036698[&brlen_95%_HPD={0.033347,0.039422}])[&index=88,posterior=1.000000]:0.016281[&brlen_95%_HPD={0.013796,0.018518}])[&index=89,posterior=1.000000]:0.009533[&brlen_95%_HPD={0.007361,0.011995}],(Zygaena_filipendulae[&index=41]:0.002994[&brlen_95%_HPD={0.002141,0.00389}],Zygaena_viciae[&index=28]:0.002023[&brlen_95%_HPD={0.001279,0.002847}])[&index=90,posterior=1.000000]:0.047162[&brlen_95%_HPD={0.043408,0.051134}])[&index=91,posterior=1.000000]:0.066132[&brlen_95%_HPD={0.061219,0.07054}],Apoda_limacodes[&index=67]:0.089156[&brlen_95%_HPD={0.083773,0.095129}])[&index=92,posterior=1.000000]:0.019123[&brlen_95%_HPD={0.015634,0.022658}],Sesia_apiformis[&index=65]:0.145078[&brlen_95%_HPD={0.138623,0.152213}])[&index=93,posterior=0.978695]:0.012662[&brlen_95%_HPD={0.007672,0.018031}])[&index=94,posterior=1.000000]:0.639042[&brlen_95%_HPD={0.619832,0.66}],(((Paraclemensia_caerulea[&index=4]:0.127460[&brlen_95%_HPD={0.120875,0.133202}],Plutella_armoraciae[&index=2]:0.092752[&brlen_95%_HPD={0.08727,0.098706}])[&index=95,posterior=1.000000]:0.021808[&brlen_95%_HPD={0.018419,0.025063}],Parnassius_tianschanicus[&index=3]:0.087567[&brlen_95%_HPD={0.082607,0.093194}])[&index=96,posterior=1.000000]:0.005565[&brlen_95%_HPD={0.003578,0.008283}],(Platyedra_subcinerea[&index=1]:0.067808[&brlen_95%_HPD={0.059863,0.076486}],Polyploca_ridens[&index=5]:0.074014[&brlen_95%_HPD={0.065169,0.082349}])[&index=97,posterior=1.000000]:0.669958[&brlen_95%_HPD={0.643114,0.691668}])[&index=98,posterior=1.000000]:0.000221[&brlen_95%_HPD={2e-06,0.000659}])[&index=99,posterior=1.000000]:0.006323[&brlen_95%_HPD={0.003621,0.008991}],((Chalcidica_minea[&index=18]:0.052968[&brlen_95%_HPD={0.048731,0.056782}],Zeuzera_multistrigata[&index=69]:0.082209[&brlen_95%_HPD={0.077177,0.086726}])[&index=100,posterior=1.000000]:0.024136[&brlen_95%_HPD={0.021346,0.027535}],Endoxyla_cinereus[&index=22]:0.055406[&brlen_95%_HPD={0.051798,0.060145}])[&index=101,posterior=1.000000]:0.036534[&brlen_95%_HPD={0.033481,0.040156}])[&index=102,posterior=1.000000]:0.011496[&brlen_95%_HPD={0.009205,0.013881}],(((((((Amesia_sanguiflua[&index=10]:0.035991[&brlen_95%_HPD={0.032824,0.039354}],Erasmia_pulchella[&index=71]:0.048012[&brlen_95%_HPD={0.044536,0.051882}])[&index=103,posterior=1.000000]:0.016330[&brlen_95%_HPD={0.013667,0.018886}],(Eterusia_aedea[&index=27]:0.037210[&brlen_95%_HPD={0.033603,0.040609}],Histia_rhodope[&index=31]:0.050295[&brlen_95%_HPD={0.046226,0.054042}])[&index=104,posterior=1.000000]:0.014911[&brlen_95%_HPD={0.012408,0.017514}])[&index=105,posterior=1.000000]:0.011856[&brlen_95%_HPD={0.009616,0.014498}],Pidorus_atratus[&index=76]:0.067470[&brlen_95%_HPD={0.0629,0.07222}])[&index=106,posterior=1.000000]:0.049675[&brlen_95%_HPD={0.045862,0.054365}],Illiberis_pruni[&index=14]:0.081424[&brlen_95%_HPD={0.076423,0.086421}])[&index=107,posterior=1.000000]:0.019625[&brlen_95%_HPD={0.016634,0.022839}],Phauda_flammans[&index=64]:0.096610[&brlen_95%_HPD={0.0908,0.102423}])[&index=108,posterior=0.980027]:0.011228[&brlen_95%_HPD={0.008803,0.014124}],Urodus_decens[&index=21]:0.124918[&brlen_95%_HPD={0.119006,0.132124}])[&index=109,posterior=1.000000]:0.012717[&brlen_95%_HPD={0.009793,0.015311}],((((Quasithosea_sythoffi[&index=8]:0.054234[&brlen_95%_HPD={0.050447,0.059012}],Setora_sinensis[&index=58]:0.049225[&brlen_95%_HPD={0.045365,0.053087}])[&index=110,posterior=1.000000]:0.010997[&brlen_95%_HPD={0.008915,0.013535}],Phlossa_conjucta[&index=57]:0.048550[&brlen_95%_HPD={0.044599,0.052188}])[&index=111,posterior=1.000000]:0.016942[&brlen_95%_HPD={0.014034,0.019746}],Chibiraga_houshuaii[&index=59]:0.083300[&brlen_95%_HPD={0.078475,0.088678}])[&index=112,posterior=1.000000]:0.032595[&brlen_95%_HPD={0.028739,0.036517}],((Cnidocampa_flavescens[&index=30]:0.000664[&brlen_95%_HPD={0.00027,0.001114}],Monema_flavescens[&index=56]:0.001475[&brlen_95%_HPD={0.000904,0.00213}])[&index=113,posterior=1.000000]:0.064853[&brlen_95%_HPD={0.060412,0.069538}],Latoia_hilarata[&index=60]:0.074042[&brlen_95%_HPD={0.069223,0.078884}])[&index=114,posterior=1.000000]:0.024488[&brlen_95%_HPD={0.021369,0.027473}])[&index=115,posterior=1.000000]:0.030457[&brlen_95%_HPD={0.027132,0.033816}])[&index=116,posterior=1.000000]:0.012731[&brlen_95%_HPD={0.010035,0.015302}])[&index=117,posterior=1.000000]:0.011038[&brlen_95%_HPD={0.008605,0.013649}],(Carposina_sasakii[&index=54]:0.102818[&brlen_95%_HPD={0.097173,0.108407}],Choreutis_emplecta[&index=11]:0.092755[&brlen_95%_HPD={0.087217,0.097885}])[&index=118,posterior=1.000000]:0.022642[&brlen_95%_HPD={0.019109,0.025789}])[&index=119,posterior=1.000000]:0.033859[&brlen_95%_HPD={0.030312,0.03747}],Cerace_xanthocosma[&index=24]:0.071680[&brlen_95%_HPD={0.06795,0.076719}])[&index=120,posterior=0.990679]:0.008862[&brlen_95%_HPD={0.006845,0.011479}],(Cochylimorpha_cultana[&index=34]:0.046537[&brlen_95%_HPD={0.042885,0.050437}],Eugnosta_dives[&index=68]:0.055441[&brlen_95%_HPD={0.051279,0.059319}])[&index=121,posterior=1.000000]:0.029499[&brlen_95%_HPD={0.026675,0.032997}])[&index=122,posterior=1.000000]:0.009211[&brlen_95%_HPD={0.007193,0.011206}],(((((((Cydia_pomonella[&index=40]:0.046268[&brlen_95%_HPD={0.042443,0.050312}],Grapholita_delineana[&index=29]:0.052758[&brlen_95%_HPD={0.048761,0.056642}])[&index=123,posterior=0.547270]:0.008132[&brlen_95%_HPD={0.005924,0.009906}],(Grapholita_molesta[&index=37]:0.040761[&brlen_95%_HPD={0.036059,0.045407}],Matsumuraeses_phaseoli[&index=15]:0.051051[&brlen_95%_HPD={0.047293,0.055474}])[&index=124,posterior=0.470040]:0.008406[&brlen_95%_HPD={0.006358,0.01007}])[&index=125,posterior=0.470040]:0.005705[&brlen_95%_HPD={0.003881,0.007313}],(Grapholita_funebrana[&index=32]:0.067051[&brlen_95%_HPD={0.062323,0.071929}],Leguminivora_glycinivorella[&index=45]:0.049811[&brlen_95%_HPD={0.044532,0.05449}])[&index=126,posterior=0.406125]:0.010208[&brlen_95%_HPD={0.00819,0.011965}])[&index=127,posterior=0.936085]:0.010880[&brlen_95%_HPD={0.008485,0.013313}],(Retinia_pseudotsugaicola[&index=62]:0.054999[&brlen_95%_HPD={0.050291,0.058624}],Rhyacionia_leptotubula[&index=47]:0.062725[&brlen_95%_HPD={0.058464,0.067162}])[&index=128,posterior=1.000000]:0.018803[&brlen_95%_HPD={0.016042,0.02135}])[&index=129,posterior=0.936085]:0.007573[&brlen_95%_HPD={0.005674,0.009415}],(Ancylis_sativa[&index=52]:0.080375[&brlen_95%_HPD={0.07583,0.08462}],Loboschiza_koenigiana[&index=72]:0.053127[&brlen_95%_HPD={0.04803,0.058676}])[&index=130,posterior=0.936085]:0.010802[&brlen_95%_HPD={0.008722,0.012973}])[&index=131,posterior=1.000000]:0.007928[&brlen_95%_HPD={0.00596,0.009846}],((((Celypha_sp.[&index=9]:0.031661[&brlen_95%_HPD={0.028653,0.034928}],Phiaris_dolosana[&index=38]:0.029925[&brlen_95%_HPD={0.027097,0.03306}])[&index=132,posterior=1.000000]:0.009679[&brlen_95%_HPD={0.007845,0.0114}],Olethreutes_sp.[&index=23]:0.037586[&brlen_95%_HPD={0.03442,0.040822}])[&index=133,posterior=1.000000]:0.010156[&brlen_95%_HPD={0.008362,0.012105}],Epinotia_rubiginosana[&index=35]:0.065772[&brlen_95%_HPD={0.061328,0.069942}])[&index=134,posterior=1.000000]:0.012497[&brlen_95%_HPD={0.010499,0.014546}],Meiligma_sp.[&index=6]:0.045720[&brlen_95%_HPD={0.042407,0.049275}])[&index=135,posterior=1.000000]:0.017000[&brlen_95%_HPD={0.014681,0.01963}])[&index=136,posterior=1.000000]:0.006231[&brlen_95%_HPD={0.004256,0.008074}],(Kennelia_xylinana[&index=70]:0.072690[&brlen_95%_HPD={0.06815,0.077833}],Spilonota_lechriaspis[&index=74]:0.069645[&brlen_95%_HPD={0.06505,0.074042}])[&index=137,posterior=1.000000]:0.012855[&brlen_95%_HPD={0.010547,0.01536}])[&index=138,posterior=1.000000]:0.016041[&brlen_95%_HPD={0.013219,0.018274}])[&index=139,posterior=1.000000]:0.017346[&brlen_95%_HPD={0.014916,0.019943}],((((((Choristoneura_biennis[&index=51]:0.010205[&brlen_95%_HPD={0.008734,0.01178}],Choristoneura_fumiferana[&index=66]:0.014490[&brlen_95%_HPD={0.01257,0.016513}])[&index=140,posterior=0.997337]:0.002313[&brlen_95%_HPD={0.001458,0.003125}],Choristoneura_pinus[&index=19]:0.007820[&brlen_95%_HPD={0.006525,0.009426}])[&index=141,posterior=1.000000]:0.020081[&brlen_95%_HPD={0.017636,0.022426}],((Choristoneura_metasequoiacola[&index=16]:0.009472[&brlen_95%_HPD={0.007797,0.011147}],Choristoneura_murinana[&index=73]:0.006884[&brlen_95%_HPD={0.005474,0.008239}])[&index=142,posterior=1.000000]:0.011815[&brlen_95%_HPD={0.010184,0.013642}],Choristoneura_conflictana[&index=49]:0.019173[&brlen_95%_HPD={0.016886,0.021251}])[&index=143,posterior=0.524634]:0.003720[&brlen_95%_HPD={0.002672,0.005051}])[&index=144,posterior=1.000000]:0.008390[&brlen_95%_HPD={0.006657,0.010057}],Choristoneura_longicellana[&index=50]:0.037346[&brlen_95%_HPD={0.034127,0.040586}])[&index=145,posterior=1.000000]:0.014139[&brlen_95%_HPD={0.012121,0.016449}],Archips_podanus[&index=75]:0.047693[&brlen_95%_HPD={0.044019,0.051345}])[&index=146,posterior=1.000000]:0.012081[&brlen_95%_HPD={0.009944,0.014164}],(Clepsis_pallidana[&index=12]:0.050512[&brlen_95%_HPD={0.046923,0.05469}],Epiphyas_postvittana[&index=26]:0.038771[&brlen_95%_HPD={0.034962,0.042169}])[&index=147,posterior=1.000000]:0.008324[&brlen_95%_HPD={0.006502,0.010105}])[&index=148,posterior=1.000000]:0.012599[&brlen_95%_HPD={0.010489,0.015278}])[&index=149,posterior=1.000000]:0.029026[&brlen_95%_HPD={0.02588,0.032136}],Adoxophyes_honmai[&index=33]:0.032232[&brlen_95%_HPD={0.029403,0.035715}],Adoxophyes_orana[&index=61]:0.037845[&brlen_95%_HPD={0.034666,0.041249}])[&index=150,posterior=1.000000]:0.000000;
+End;

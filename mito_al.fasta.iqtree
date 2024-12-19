@@ -1,0 +1,605 @@
+IQ-TREE 2.1.2 COVID-edition built Nov  8 2022
+
+Input file name: mito_al.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 819562
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 103 sequences with 25730 nucleotide sites
+Number of constant sites: 8817 (= 34.2674% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 8817 (= 34.2674% of all sites)
+Number of parsimony informative sites: 14198
+Number of distinct site patterns: 16351
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: GTR+F+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+GTR+F+R7        -502834.541 1006115.082 - 0.000784 1006118.999 - 0.000812 1007933.739 +    0.732
+GTR+F+R8        -502825.390 1006100.781 +    0.999 1006104.768 +    0.999 1007935.749 +    0.268
+GTR+F+R6        -502862.341 1006166.682 - 4.89e-15 1006170.529 - 5.25e-15 1007969.028 - 1.59e-08
+GTR+F+R5        -502911.695 1006261.391 - 1.33e-35 1006265.168 - 1.48e-35 1008047.426 - 1.51e-25
+TVM+F+R7        -502930.902 1006305.804 - 3.02e-45 1006309.686 - 3.18e-45 1008116.306 - 1.66e-40
+TIM+F+R7        -503043.133 1006528.267 - 1.49e-93 1006532.114 -  1.6e-93 1008330.613 - 4.83e-87
+TVM+F+R8        -503072.783 1006593.566 - 9.83e-108 1006597.518 -   1e-107 1008420.378 - 1.56e-106
+GTR+F+R4        -503159.893 1006753.786 - 1.59e-142 1006757.494 - 1.83e-142 1008523.510 - 6.27e-129
+K3Pu+F+R7       -503202.166 1006844.333 - 3.46e-162 1006848.145 - 3.78e-162 1008638.524 - 6.64e-154
+TIM+F+R8        -503187.866 1006821.733 - 2.8e-157 1006825.649 - 2.9e-157 1008640.390 - 2.61e-154
+K3Pu+F+R8       -503345.965 1007135.930 - 1.66e-225 1007139.812 - 1.75e-225 1008946.432 - 9.14e-221
+GTR+F+I+G4      -503838.090 1008102.180 -        0 1008105.753 -        0 1009839.283 -        0
+GTR+F+G4        -504092.093 1008608.186 -        0 1008611.725 -        0 1010337.133 -        0
+GTR+F+R3        -504427.977 1009285.953 -        0 1009289.594 -        0 1011039.367 -        0
+TIM2+F+R7       -504961.983 1010365.967 -        0 1010369.813 -        0 1012168.313 -        0
+TIM2+F+R8       -505091.116 1010628.231 -        0 1010632.148 -        0 1012446.888 -        0
+TPM2+F+R7       -505166.672 1010773.344 -        0 1010777.156 -        0 1012567.534 -        0
+TPM2u+F+R7      -505166.672 1010773.344 -        0 1010777.156 -        0 1012567.534 -        0
+TIM3+F+R7       -505206.082 1010854.163 -        0 1010858.010 -        0 1012656.509 -        0
+TPM2+F+R8       -505300.311 1011044.622 -        0 1011048.503 -        0 1012855.123 -        0
+TPM2u+F+R8      -505300.434 1011044.868 -        0 1011048.750 -        0 1012855.370 -        0
+TPM3u+F+R7      -505314.248 1011068.497 -        0 1011072.309 -        0 1012862.688 -        0
+TPM3+F+R7       -505314.248 1011068.497 -        0 1011072.309 -        0 1012862.688 -        0
+TIM3+F+R8       -505350.438 1011146.875 -        0 1011150.792 -        0 1012965.532 -        0
+TPM3u+F+R8      -505460.119 1011364.238 -        0 1011368.120 -        0 1013174.739 -        0
+TPM3+F+R8       -505460.120 1011364.241 -        0 1011368.122 -        0 1013174.742 -        0
+TN+F+R7         -506896.793 1014233.586 -        0 1014237.398 -        0 1016027.777 -        0
+HKY+F+R7        -507039.777 1014517.555 -        0 1014521.332 -        0 1016303.590 -        0
+TN+F+R8         -507038.062 1014520.124 -        0 1014524.006 -        0 1016330.626 -        0
+HKY+F+R8        -507178.699 1014799.398 -        0 1014803.245 -        0 1016601.745 -        0
+GTR+F+R2        -511193.525 1022813.051 -        0 1022816.624 -        0 1024550.154 -        0
+SYM+R7          -512977.584 1026395.168 -        0 1026398.980 -        0 1028189.359 -        0
+SYM+R8          -512971.865 1026387.729 -        0 1026391.611 -        0 1028198.231 -        0
+TVMe+R7         -513392.967 1027223.934 -        0 1027227.712 -        0 1029009.970 -        0
+TVMe+R8         -513390.355 1027222.710 -        0 1027226.557 -        0 1029025.056 -        0
+F81+F+R7        -516908.041 1034252.081 -        0 1034255.824 -        0 1036029.961 -        0
+F81+F+R8        -517026.117 1034492.234 -        0 1034496.046 -        0 1036286.425 -        0
+TIMe+R7         -519756.865 1039949.729 -        0 1039953.472 -        0 1041727.609 -        0
+TIMe+R8         -519756.575 1039953.149 -        0 1039956.961 -        0 1041747.340 -        0
+K3P+R7          -520187.884 1040809.768 -        0 1040813.477 -        0 1042579.493 -        0
+K3P+R8          -520187.248 1040812.496 -        0 1040816.274 -        0 1042598.532 -        0
+TIM2e+R7        -528874.713 1058185.426 -        0 1058189.169 -        0 1059963.306 -        0
+TIM2e+R8        -528871.340 1058182.680 -        0 1058186.492 -        0 1059976.870 -        0
+TIM3e+R7        -531159.326 1062754.652 -        0 1062758.394 -        0 1064532.532 -        0
+TIM3e+R8        -531157.272 1062754.544 -        0 1062758.356 -        0 1064548.735 -        0
+GTR+F+I         -537597.029 1075618.057 -        0 1075621.597 -        0 1077347.005 -        0
+TNe+R7          -543558.427 1087550.854 -        0 1087554.563 -        0 1089320.579 -        0
+TNe+R8          -543569.485 1087576.969 -        0 1087580.747 -        0 1089363.005 -        0
+K2P+R7          -543970.985 1088373.969 -        0 1088377.644 -        0 1090135.539 -        0
+K2P+R8          -543984.199 1088404.399 -        0 1088408.142 -        0 1090182.279 -        0
+JC+R7           -544488.586 1089407.173 -        0 1089410.813 -        0 1091160.587 -        0
+JC+R8           -544485.045 1089404.090 -        0 1089407.799 -        0 1091173.815 -        0
+GTR+F           -549937.948 1100297.895 -        0 1100301.401 -        0 1102018.687 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+R7
+
+Rate parameter R:
+
+  A-C: 1.1332
+  A-G: 8.3339
+  A-T: 4.3999
+  C-G: 1.8866
+  C-T: 10.5987
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.4014
+  pi(C) = 0.1043
+  pi(G) = 0.09149
+  pi(T) = 0.4028
+
+Rate matrix Q:
+
+  A   -0.8475   0.03776    0.2436    0.5662
+  C    0.1453    -1.564   0.05514     1.364
+  G     1.069   0.06287     -1.26    0.1287
+  T    0.5643    0.3532   0.02923   -0.9467
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.293,0.04796) (0.08713,0.1617) (0.1967,0.4891) (0.1837,1.04) (0.1259,1.928) (0.07495,3.054) (0.03857,5.522)
+
+ Category  Relative_rate  Proportion
+  1         0.04796        0.293
+  2         0.1617         0.08713
+  3         0.4891         0.1967
+  4         1.04           0.1837
+  5         1.928          0.1259
+  6         3.054          0.07495
+  7         5.522          0.03857
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -502618.4548 (s.e. 3551.5321)
+Unconstrained log-likelihood (without tree): -221041.8989
+Number of free parameters (#branches + #model parameters): 223
+Akaike information criterion (AIC) score: 1005682.9095
+Corrected Akaike information criterion (AICc) score: 1005686.8264
+Bayesian information criterion (BIC) score: 1007501.5666
+
+Total tree length (sum of branch lengths): 20.6115
+Sum of internal branch lengths: 12.3318 (59.8296% of tree length)
+
+WARNING: 1 too long branches (>9.8000) should be treated with caution!
+NOTE: Tree is UNROOTED although outgroup taxon 'Acleris_fimbriana' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--Acleris_fimbriana
+|
+|           +--Adoxophyes_honmai
+|        +--| (100)
+|        |  +--Adoxophyes_orana
+|     +--| (100)
+|     |  |     +--Archips_podanus
+|     |  |  +--| (100)
+|     |  |  |  |              +--Choristoneura_biennis
+|     |  |  |  |           +--| (100)
+|     |  |  |  |           |  |  +--Choristoneura_fumiferana
+|     |  |  |  |           |  +--| (100)
+|     |  |  |  |           |     +--Choristoneura_occidentalis
+|     |  |  |  |        +--| (100)
+|     |  |  |  |        |  +--Choristoneura_pinus
+|     |  |  |  |     +--| (100)
+|     |  |  |  |     |  +--Choristoneura_rosaceana
+|     |  |  |  |  +--| (100)
+|     |  |  |  |  |  |  +--Choristoneura_conflictana
+|     |  |  |  |  |  +--| (96)
+|     |  |  |  |  |     |  +--Choristoneura_metasequoiacola
+|     |  |  |  |  |     +--| (100)
+|     |  |  |  |  |        +--Choristoneura_murinana
+|     |  |  |  +--| (100)
+|     |  |  |     +--Choristoneura_longicellana
+|     |  +--| (100)
+|     |     |  +--Clepsis_pallidana
+|     |     +--| (100)
+|     |        +--Epiphyas_postvittana
+|  +--| (69)
+|  |  +--Cerace_xanthocosma
++--| (97)
+|  |                                                                                           +--Adscita_geryon
+|  |                                                                                        +--| (100)
+|  |                                                                                        |  |              +--Zygaena_carniolica
+|  |                                                                                        |  |           +--| (100)
+|  |                                                                                        |  |           |  +--Zygaena_exulans
+|  |                                                                                        |  |        +--| (58)
+|  |                                                                                        |  |        |  +--Zygaena_loti
+|  |                                                                                        |  |     +--| (71)
+|  |                                                                                        |  |     |  |  +--Zygaena_purpuralis
+|  |                                                                                        |  |     |  +--| (100)
+|  |                                                                                        |  |     |     +--Zygaena_sarpedon
+|  |                                                                                        |  |  +--| (91)
+|  |                                                                                        |  |  |  |  +--Zygaena_filipendulae
+|  |                                                                                        |  |  |  +--| (100)
+|  |                                                                                        |  |  |     +--Zygaena_viciae
+|  |                                                                                        |  +--| (100)
+|  |                                                                                        |     +--Zygaena_ephialtes
+|  |                                                                                     +--| (98)
+|  |                                                                                     |  +--Apoda_limacodes
+|  |                                                                                  +--| (91)
+|  |                                                                                  |  |     +--Choreutis_nemorana
+|  |                                                                                  |  |  +--| (90)
+|  |                                                                                  |  |  |  |  +--Phragmataecia_castaneae
+|  |                                                                                  |  |  |  +--| (100)
+|  |                                                                                  |  |  |     +--Zeuzera_pyrina
+|  |                                                                                  |  +--| (88)
+|  |                                                                                  |     |  +--Polyploca_ridens
+|  |                                                                                  |     +--| (100)
+|  |                                                                                  |        +--Platyedra_subcinerea
+|  |                                                                               +--| (96)
+|  |                                                                               |  |     +--Bembecia_ichneumoniformis
+|  |                                                                               |  |  +--| (100)
+|  |                                                                               |  |  |  +--Synanthedon_formicaeformis
+|  |                                                                               |  +--| (100)
+|  |                                                                               |     +--Sesia_apiformis
+|  |                                                                            +--| (46)
+|  |                                                                            |  |     +--Ancylis_achatana
+|  |                                                                            |  |  +--| (100)
+|  |                                                                            |  |  |  |  +--Apotomis_betuletana
+|  |                                                                            |  |  |  +--| (88)
+|  |                                                                            |  |  |     |     +--Epiblema_foenella
+|  |                                                                            |  |  |     |  +--| (60)
+|  |                                                                            |  |  |     |  |  +--Rhyacionia_pinicolana
+|  |                                                                            |  |  |     +--| (100)
+|  |                                                                            |  |  |        |        +--Epinotia_bilunana
+|  |                                                                            |  |  |        |     +--| (99)
+|  |                                                                            |  |  |        |     |  +--Epinotia_ramella
+|  |                                                                            |  |  |        |  +--| (100)
+|  |                                                                            |  |  |        |  |  +--Epinotia_demarniana
+|  |                                                                            |  |  |        +--| (100)
+|  |                                                                            |  |  |           |  +--Epinotia_brunnichana
+|  |                                                                            |  |  |           +--| (100)
+|  |                                                                            |  |  |              +--Epinotia_nisella
+|  |                                                                            |  +--| (53)
+|  |                                                                            |     |        +--Aphelia_paleana
+|  |                                                                            |     |     +--| (100)
+|  |                                                                            |     |     |  +--Cacoecimorpha_pronubana
+|  |                                                                            |     |  +--| (99)
+|  |                                                                            |     |  |  |  +--Pandemis_cinnamomeana
+|  |                                                                            |     |  |  +--| (100)
+|  |                                                                            |     |  |     +--Pandemis_corylana
+|  |                                                                            |     +--| (68)
+|  |                                                                            |        +--Tortricodes_alternella
+|  |                                                                         +--| (40)
+|  |                                                                         |  +--Aethes_cnicana
+|  |                 +-------------------------------------------------------| (100)
+|  |                 |                                                       +--Aethes_tesserana
+|  |              +--| (22)
+|  |              |  |     +--Chibiraga_houshuaii
+|  |              |  |  +--| (99)
+|  |              |  |  |  |  +--Phlossa_conjucta
+|  |              |  |  |  +--| (100)
+|  |              |  |  |     |  +--Quasithosea_sythoffi
+|  |              |  |  |     +--| (97)
+|  |              |  |  |        +--Setora_sinensis
+|  |              |  +--| (93)
+|  |              |     |     +--Cnidocampa_flavescens
+|  |              |     |  +--| (100)
+|  |              |     |  |  +--Monema_flavescens
+|  |              |     +--| (100)
+|  |              |        |     +--Latoia_hilarata
+|  |              |        |  +--| (100)
+|  |              |        |  |  +--Parasa_consocia
+|  |              |        +--| (100)
+|  |              |           +--Parasa_lepida
+|  |           +--| (55)
+|  |           |  +--Narosa_fulgens
+|  |        +--| (84)
+|  |        |  |              +--Amesia_sanguiflua
+|  |        |  |           +--| (100)
+|  |        |  |           |  +--Erasmia_pulchella
+|  |        |  |        +--| (86)
+|  |        |  |        |  |  +--Eterusia_aedea
+|  |        |  |        |  +--| (100)
+|  |        |  |        |     +--Histia_rhodope
+|  |        |  |     +--| (100)
+|  |        |  |     |  +--Pidorus_atratus
+|  |        |  |  +--| (99)
+|  |        |  |  |  |  +--Illiberis_pruni
+|  |        |  |  |  +--| (100)
+|  |        |  |  |     +--Illiberis_ulmivora
+|  |        |  +--| (74)
+|  |        |     +--Phauda_flammans
+|  |     +--| (76)
+|  |     |  |           +--Chalcidica_minea
+|  |     |  |        +--| (100)
+|  |     |  |        |  +--Zeuzera_multistrigata
+|  |     |  |     +--| (100)
+|  |     |  |     |  +--Endoxyla_cinereus
+|  |     |  |  +--| (83)
+|  |     |  |  |  |  +--Eogystia_hippophaecolus
+|  |     |  |  |  +--| (86)
+|  |     |  |  |     +--Urodus_decens
+|  |     |  +--| (69)
+|  |     |     |     +--Choreutis_emplecta
+|  |     |     |  +--| (80)
+|  |     |     |  |  +--Parnassius_tianschanicus
+|  |     |     +--| (76)
+|  |     |        |  +--Plutella_armoraciae
+|  |     |        +--| (98)
+|  |     |           +--Paraclemensia_caerulea
+|  |  +--| (99)
+|  |  |  |  +--Carposina_sasakii
+|  |  |  +--| (77)
+|  |  |     +--Sesia_siningensis
+|  +--| (70)
+|     |        +--Ancylis_sativa
+|     |     +--| (44)
+|     |     |  |        +--Bactra_venosana
+|     |     |  |     +--| (99)
+|     |     |  |     |  +--Epinotia_rubiginosana
+|     |     |  |  +--| (100)
+|     |     |  |  |  |        +--Celypha_flavipalpana
+|     |     |  |  |  |     +--| (100)
+|     |     |  |  |  |     |  +--Celypha_sp.
+|     |     |  |  |  |  +--| (100)
+|     |     |  |  |  |  |  +--Phiaris_dolosana
+|     |     |  |  |  +--| (100)
+|     |     |  |  |     +--Olethreutes_sp.
+|     |     |  +--| (100)
+|     |     |     +--Meiligma_sp.
+|     |  +--| (44)
+|     |  |  |           +--Cydia_pomonella
+|     |  |  |        +--| (100)
+|     |  |  |        |  +--Leguminivora_glycinivorella
+|     |  |  |     +--| (95)
+|     |  |  |     |  |     +--Grapholita_delineana
+|     |  |  |     |  |  +--| (52)
+|     |  |  |     |  |  |  +--Matsumuraeses_phaseoli
+|     |  |  |     |  +--| (52)
+|     |  |  |     |     |     +--Grapholita_dimorpha
+|     |  |  |     |     |  +--| (100)
+|     |  |  |     |     |  |  +--Grapholita_molesta
+|     |  |  |     |     +--| (99)
+|     |  |  |     |        +--Grapholita_funebrana
+|     |  |  |  +--| (89)
+|     |  |  |  |  +--Thaumatotibia_leucotreta
+|     |  |  +--| (100)
+|     |  |     |     +--Retinia_pseudotsugaicola
+|     |  |     |  +--| (100)
+|     |  |     |  |  +--Rhyacionia_leptotubula
+|     |  |     +--| (89)
+|     |  |        +--Spilonota_lechriaspis
+|     +--| (100)
+|        |  +--Kennelia_xylinana
+|        +--| (53)
+|           +--Loboschiza_koenigiana
+|
+|  +--Cochylidia_moguntiana
++--| (100)
+   |  +--Cochylimorpha_cultana
+   +--| (100)
+      +--Eugnosta_dives
+
+Tree in newick format:
+
+(Acleris_fimbriana:0.1208405844,((((Adoxophyes_honmai:0.0424609765,Adoxophyes_orana:0.0515567343)100:0.0449028928,((Archips_podanus:0.0682912246,(((((Choristoneura_biennis:0.0116820797,(Choristoneura_fumiferana:0.0180459755,Choristoneura_occidentalis:0.0021013542)100:0.0018663153)100:0.0034235323,Choristoneura_pinus:0.0099528263)100:0.0220996921,Choristoneura_rosaceana:0.0255153689)100:0.0070867838,(Choristoneura_conflictana:0.0250024481,(Choristoneura_metasequoiacola:0.0124341779,Choristoneura_murinana:0.0078883725)100:0.0153811632)96:0.0025767701)100:0.0086527865,Choristoneura_longicellana:0.0515495802)100:0.0214026168)100:0.0138418916,(Clepsis_pallidana:0.0697503288,Epiphyas_postvittana:0.0541898423)100:0.0106835191)100:0.0138023565)100:0.0182158588,Cerace_xanthocosma:0.1148667349)69:0.0090202879,(((((((((((((Adscita_geryon:0.1214687583,(((((Zygaena_carniolica:0.0395250678,Zygaena_exulans:0.0475078140)100:0.0167350286,Zygaena_loti:0.0521875922)58:0.0065285876,(Zygaena_purpuralis:0.0491990717,Zygaena_sarpedon:0.0489792769)100:0.0243201824)71:0.0062984367,(Zygaena_filipendulae:0.0037216934,Zygaena_viciae:0.0021408485)100:0.0702922735)91:0.0102849795,Zygaena_ephialtes:0.0525342288)100:0.0952626911)100:0.0324842186,Apoda_limacodes:0.1441263051)98:0.0177988868,((Choreutis_nemorana:0.1682431000,(Phragmataecia_castaneae:0.1387860304,Zeuzera_pyrina:0.1234951122)100:0.0508681255)90:0.0189449993,(Polyploca_ridens:0.1142999767,Platyedra_subcinerea:0.1026106111)100:0.0230860993)88:0.0115927153)91:0.0115057772,((Bembecia_ichneumoniformis:0.0947815815,Synanthedon_formicaeformis:0.1131256896)100:0.1286401034,Sesia_apiformis:0.1658988295)100:0.0639007204)96:0.0527549285,((Ancylis_achatana:0.0935472279,(Apotomis_betuletana:0.0907918401,((Epiblema_foenella:0.0781755078,Rhyacionia_pinicolana:0.0813888019)60:0.0099555493,(((Epinotia_bilunana:0.0522461916,Epinotia_ramella:0.0555964526)99:0.0083879475,Epinotia_demarniana:0.0447521140)100:0.0115021425,(Epinotia_brunnichana:0.0581552878,Epinotia_nisella:0.0694550627)100:0.0116944249)100:0.0270326110)100:0.0216550051)88:0.0134890657)100:0.0203995284,(((Aphelia_paleana:0.0717263909,Cacoecimorpha_pronubana:0.0693330600)100:0.0147341441,(Pandemis_cinnamomeana:0.0461394512,Pandemis_corylana:0.0409153307)100:0.0411111307)99:0.0299952435,Tortricodes_alternella:0.0806636705)68:0.0125224950)53:0.0123316287)46:0.0480380301,Aethes_cnicana:0.0567008081)40:0.0408675604,Aethes_tesserana:0.0293525324)100:9.9613019100,((Chibiraga_houshuaii:0.1314579572,(Phlossa_conjucta:0.0712503059,(Quasithosea_sythoffi:0.0784336038,Setora_sinensis:0.0729929219)97:0.0120015206)100:0.0197752643)99:0.0619589500,((Cnidocampa_flavescens:0.0006822908,Monema_flavescens:0.0017629549)100:0.1113429695,((Latoia_hilarata:0.0842569139,Parasa_consocia:0.0948783797)100:0.0196415965,Parasa_lepida:0.1367134826)100:0.0320670210)100:0.0268855306)93:0.0214722320)22:0.0064349800,Narosa_fulgens:0.1390770862)55:0.0295812631,(((((Amesia_sanguiflua:0.0500829365,Erasmia_pulchella:0.0639141634)100:0.0227735421,(Eterusia_aedea:0.0514798916,Histia_rhodope:0.0683403315)100:0.0193187464)86:0.0103482472,Pidorus_atratus:0.1040054520)100:0.0760931647,(Illiberis_pruni:0.0900734503,Illiberis_ulmivora:0.0741813915)100:0.0574634448)99:0.0336527774,Phauda_flammans:0.1750912991)74:0.0156533877)84:0.0159001915,((((Chalcidica_minea:0.0829495523,Zeuzera_multistrigata:0.1205650977)100:0.0342227352,Endoxyla_cinereus:0.0843579653)100:0.0606372210,(Eogystia_hippophaecolus:0.1718310526,Urodus_decens:0.1944968540)86:0.0208539461)83:0.0124195469,((Choreutis_emplecta:0.1679371181,Parnassius_tianschanicus:0.1288297398)80:0.0174813204,(Plutella_armoraciae:0.1632232830,Paraclemensia_caerulea:0.2338797926)98:0.0284848711)76:0.0084986129)69:0.0087910707)76:0.0098891415,(Carposina_sasakii:0.1865253483,Sesia_siningensis:0.1849814227)77:0.0232486065)99:0.0537655191,(((Ancylis_sativa:0.1225051220,(((Bactra_venosana:0.0811894372,Epinotia_rubiginosana:0.0903354983)99:0.0097380199,(((Celypha_flavipalpana:0.0278621303,Celypha_sp.:0.0284223621)100:0.0176096633,Phiaris_dolosana:0.0417999767)100:0.0128388876,Olethreutes_sp.:0.0513408159)100:0.0185110527)100:0.0153285397,Meiligma_sp.:0.0707110986)100:0.0191181021)44:0.0065286153,((((Cydia_pomonella:0.0648189224,Leguminivora_glycinivorella:0.0723937692)100:0.0169865127,((Grapholita_delineana:0.0812755388,Matsumuraeses_phaseoli:0.0712124505)52:0.0090250382,((Grapholita_dimorpha:0.0294233999,Grapholita_molesta:0.0284007568)100:0.0373531591,Grapholita_funebrana:0.0910574417)99:0.0156862543)52:0.0054285814)95:0.0096601250,Thaumatotibia_leucotreta:0.1019531197)89:0.0090277414,((Retinia_pseudotsugaicola:0.0805330682,Rhyacionia_leptotubula:0.0971036477)100:0.0138236304,Spilonota_lechriaspis:0.1179915648)89:0.0087081668)100:0.0108411518)44:0.0060586739,(Kennelia_xylinana:0.1132483709,Loboschiza_koenigiana:0.0776304866)53:0.0135227148)100:0.0196783895)70:0.0081973779)97:0.0118273507,(Cochylidia_moguntiana:0.0884589471,(Cochylimorpha_cultana:0.0709621738,Eugnosta_dives:0.0831453573)100:0.0312137020)100:0.0151322077);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -502626.309004
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Acleris_fimbriana
+|
+|           +--Adoxophyes_honmai
+|        +--| (100)
+|        |  +--Adoxophyes_orana
+|     +--| (100)
+|     |  |     +--Archips_podanus
+|     |  |  +--| (100)
+|     |  |  |  |              +--Choristoneura_biennis
+|     |  |  |  |           +--| (100)
+|     |  |  |  |           |  |  +--Choristoneura_fumiferana
+|     |  |  |  |           |  +--| (100)
+|     |  |  |  |           |     +--Choristoneura_occidentalis
+|     |  |  |  |        +--| (100)
+|     |  |  |  |        |  +--Choristoneura_pinus
+|     |  |  |  |     +--| (100)
+|     |  |  |  |     |  +--Choristoneura_rosaceana
+|     |  |  |  |  +--| (100)
+|     |  |  |  |  |  |  +--Choristoneura_conflictana
+|     |  |  |  |  |  +--| (96)
+|     |  |  |  |  |     |  +--Choristoneura_metasequoiacola
+|     |  |  |  |  |     +--| (100)
+|     |  |  |  |  |        +--Choristoneura_murinana
+|     |  |  |  +--| (100)
+|     |  |  |     +--Choristoneura_longicellana
+|     |  +--| (100)
+|     |     |  +--Clepsis_pallidana
+|     |     +--| (100)
+|     |        +--Epiphyas_postvittana
+|  +--| (69)
+|  |  +--Cerace_xanthocosma
++--| (97)
+|  |                                                                                      +--Adscita_geryon
+|  |                                                                                   +--| (100)
+|  |                                                                                   |  |              +--Zygaena_carniolica
+|  |                                                                                   |  |           +--| (100)
+|  |                                                                                   |  |           |  +--Zygaena_exulans
+|  |                                                                                   |  |        +--| (58)
+|  |                                                                                   |  |        |  +--Zygaena_loti
+|  |                                                                                   |  |     +--| (71)
+|  |                                                                                   |  |     |  |  +--Zygaena_purpuralis
+|  |                                                                                   |  |     |  +--| (100)
+|  |                                                                                   |  |     |     +--Zygaena_sarpedon
+|  |                                                                                   |  |  +--| (91)
+|  |                                                                                   |  |  |  |  +--Zygaena_filipendulae
+|  |                                                                                   |  |  |  +--| (100)
+|  |                                                                                   |  |  |     +--Zygaena_viciae
+|  |                                                                                   |  +--| (100)
+|  |                                                                                   |     +--Zygaena_ephialtes
+|  |                                                                                +--| (98)
+|  |                                                                                |  +--Apoda_limacodes
+|  |                                                                             +--| (91)
+|  |                                                                             |  |     +--Choreutis_nemorana
+|  |                                                                             |  |  +--| (90)
+|  |                                                                             |  |  |  |  +--Phragmataecia_castaneae
+|  |                                                                             |  |  |  +--| (100)
+|  |                                                                             |  |  |     +--Zeuzera_pyrina
+|  |                                                                             |  +--| (88)
+|  |                                                                             |     |  +--Polyploca_ridens
+|  |                                                                             |     +--| (100)
+|  |                                                                             |        +--Platyedra_subcinerea
+|  |                                                                          +--| (96)
+|  |                                                                          |  |     +--Bembecia_ichneumoniformis
+|  |                                                                          |  |  +--| (100)
+|  |                                                                          |  |  |  +--Synanthedon_formicaeformis
+|  |                                                                          |  +--| (100)
+|  |                                                                          |     +--Sesia_apiformis
+|  |                                                                       +--| (46)
+|  |                                                                       |  |     +--Ancylis_achatana
+|  |                                                                       |  |  +--| (100)
+|  |                                                                       |  |  |  |  +--Apotomis_betuletana
+|  |                                                                       |  |  |  +--| (88)
+|  |                                                                       |  |  |     |     +--Epiblema_foenella
+|  |                                                                       |  |  |     |  +--| (60)
+|  |                                                                       |  |  |     |  |  +--Rhyacionia_pinicolana
+|  |                                                                       |  |  |     +--| (100)
+|  |                                                                       |  |  |        |        +--Epinotia_bilunana
+|  |                                                                       |  |  |        |     +--| (99)
+|  |                                                                       |  |  |        |     |  +--Epinotia_ramella
+|  |                                                                       |  |  |        |  +--| (100)
+|  |                                                                       |  |  |        |  |  +--Epinotia_demarniana
+|  |                                                                       |  |  |        +--| (100)
+|  |                                                                       |  |  |           |  +--Epinotia_brunnichana
+|  |                                                                       |  |  |           +--| (100)
+|  |                                                                       |  |  |              +--Epinotia_nisella
+|  |                                                                       |  +--| (53)
+|  |                                                                       |     |        +--Aphelia_paleana
+|  |                                                                       |     |     +--| (100)
+|  |                                                                       |     |     |  +--Cacoecimorpha_pronubana
+|  |                                                                       |     |  +--| (99)
+|  |                                                                       |     |  |  |  +--Pandemis_cinnamomeana
+|  |                                                                       |     |  |  +--| (100)
+|  |                                                                       |     |  |     +--Pandemis_corylana
+|  |                                                                       |     +--| (68)
+|  |                                                                       |        +--Tortricodes_alternella
+|  |              +--------------------------------------------------------| (100)
+|  |              |                                                        |  +--Aethes_cnicana
+|  |              |                                                        +--| (55)
+|  |              |                                                           +--Aethes_tesserana
+|  |           +--| (55)
+|  |           |  |        +--Chibiraga_houshuaii
+|  |           |  |     +--| (99)
+|  |           |  |     |  |  +--Phlossa_conjucta
+|  |           |  |     |  +--| (100)
+|  |           |  |     |     |  +--Quasithosea_sythoffi
+|  |           |  |     |     +--| (97)
+|  |           |  |     |        +--Setora_sinensis
+|  |           |  |  +--| (93)
+|  |           |  |  |  |     +--Cnidocampa_flavescens
+|  |           |  |  |  |  +--| (100)
+|  |           |  |  |  |  |  +--Monema_flavescens
+|  |           |  |  |  +--| (100)
+|  |           |  |  |     |     +--Latoia_hilarata
+|  |           |  |  |     |  +--| (100)
+|  |           |  |  |     |  |  +--Parasa_consocia
+|  |           |  |  |     +--| (100)
+|  |           |  |  |        +--Parasa_lepida
+|  |           |  +--| (71)
+|  |           |     +--Narosa_fulgens
+|  |        +--| (84)
+|  |        |  |              +--Amesia_sanguiflua
+|  |        |  |           +--| (100)
+|  |        |  |           |  +--Erasmia_pulchella
+|  |        |  |        +--| (86)
+|  |        |  |        |  |  +--Eterusia_aedea
+|  |        |  |        |  +--| (100)
+|  |        |  |        |     +--Histia_rhodope
+|  |        |  |     +--| (100)
+|  |        |  |     |  +--Pidorus_atratus
+|  |        |  |  +--| (99)
+|  |        |  |  |  |  +--Illiberis_pruni
+|  |        |  |  |  +--| (100)
+|  |        |  |  |     +--Illiberis_ulmivora
+|  |        |  +--| (74)
+|  |        |     +--Phauda_flammans
+|  |     +--| (76)
+|  |     |  |           +--Chalcidica_minea
+|  |     |  |        +--| (100)
+|  |     |  |        |  +--Zeuzera_multistrigata
+|  |     |  |     +--| (100)
+|  |     |  |     |  +--Endoxyla_cinereus
+|  |     |  |  +--| (83)
+|  |     |  |  |  |  +--Eogystia_hippophaecolus
+|  |     |  |  |  +--| (86)
+|  |     |  |  |     +--Urodus_decens
+|  |     |  +--| (69)
+|  |     |     |     +--Choreutis_emplecta
+|  |     |     |  +--| (80)
+|  |     |     |  |  +--Parnassius_tianschanicus
+|  |     |     +--| (76)
+|  |     |        |  +--Plutella_armoraciae
+|  |     |        +--| (98)
+|  |     |           +--Paraclemensia_caerulea
+|  |  +--| (99)
+|  |  |  |  +--Carposina_sasakii
+|  |  |  +--| (77)
+|  |  |     +--Sesia_siningensis
+|  +--| (70)
+|     |     +--Ancylis_sativa
+|     |  +--| (44)
+|     |  |  |           +--Bactra_venosana
+|     |  |  |        +--| (99)
+|     |  |  |        |  +--Epinotia_rubiginosana
+|     |  |  |     +--| (100)
+|     |  |  |     |  |        +--Celypha_flavipalpana
+|     |  |  |     |  |     +--| (100)
+|     |  |  |     |  |     |  +--Celypha_sp.
+|     |  |  |     |  |  +--| (100)
+|     |  |  |     |  |  |  +--Phiaris_dolosana
+|     |  |  |     |  +--| (100)
+|     |  |  |     |     +--Olethreutes_sp.
+|     |  |  |  +--| (100)
+|     |  |  |  |  +--Meiligma_sp.
+|     |  |  +--| (46)
+|     |  |     |           +--Cydia_pomonella
+|     |  |     |        +--| (100)
+|     |  |     |        |  +--Leguminivora_glycinivorella
+|     |  |     |     +--| (95)
+|     |  |     |     |  |     +--Grapholita_delineana
+|     |  |     |     |  |  +--| (52)
+|     |  |     |     |  |  |  +--Matsumuraeses_phaseoli
+|     |  |     |     |  +--| (52)
+|     |  |     |     |     |     +--Grapholita_dimorpha
+|     |  |     |     |     |  +--| (100)
+|     |  |     |     |     |  |  +--Grapholita_molesta
+|     |  |     |     |     +--| (99)
+|     |  |     |     |        +--Grapholita_funebrana
+|     |  |     |  +--| (89)
+|     |  |     |  |  +--Thaumatotibia_leucotreta
+|     |  |     +--| (100)
+|     |  |        |     +--Retinia_pseudotsugaicola
+|     |  |        |  +--| (100)
+|     |  |        |  |  +--Rhyacionia_leptotubula
+|     |  |        +--| (89)
+|     |  |           +--Spilonota_lechriaspis
+|     +--| (100)
+|        |  +--Kennelia_xylinana
+|        +--| (53)
+|           +--Loboschiza_koenigiana
+|
+|  +--Cochylidia_moguntiana
++--| (100)
+   |  +--Cochylimorpha_cultana
+   +--| (100)
+      +--Eugnosta_dives
+
+
+Consensus tree in newick format: 
+
+(Acleris_fimbriana:0.1208282400,((((Adoxophyes_honmai:0.0424646255,Adoxophyes_orana:0.0516058123)100:0.0449454241,((Archips_podanus:0.0683050257,(((((Choristoneura_biennis:0.0116874581,(Choristoneura_fumiferana:0.0180555799,Choristoneura_occidentalis:0.0021028405)100:0.0018669364)100:0.0034255014,Choristoneura_pinus:0.0099559062)100:0.0221116705,Choristoneura_rosaceana:0.0255229456)100:0.0070980680,(Choristoneura_conflictana:0.0250145770,(Choristoneura_metasequoiacola:0.0124401835,Choristoneura_murinana:0.0078919406)100:0.0153916859)96:0.0025741440)100:0.0086643632,Choristoneura_longicellana:0.0515772481)100:0.0214307030)100:0.0138651924,(Clepsis_pallidana:0.0697458097,Epiphyas_postvittana:0.0542570325)100:0.0106745738)100:0.0137903746)100:0.0181729241,Cerace_xanthocosma:0.1150620460)69:0.0091668872,(((((((((((Adscita_geryon:0.1215652242,(((((Zygaena_carniolica:0.0395540279,Zygaena_exulans:0.0475431364)100:0.0167463472,Zygaena_loti:0.0522270787)58:0.0065345468,(Zygaena_purpuralis:0.0492358129,Zygaena_sarpedon:0.0490166913)100:0.0243372241)71:0.0063012228,(Zygaena_filipendulae:0.0037250669,Zygaena_viciae:0.0021412124)100:0.0703470332)91:0.0102826395,Zygaena_ephialtes:0.0525833580)100:0.0953407319)100:0.0325063334,Apoda_limacodes:0.1442601844)98:0.0178139483,((Choreutis_nemorana:0.1683881810,(Phragmataecia_castaneae:0.1388959368,Zeuzera_pyrina:0.1235875520)100:0.0509019340)90:0.0189589880,(Polyploca_ridens:0.1143861298,Platyedra_subcinerea:0.1026932516)100:0.0230985907)88:0.0116026046)91:0.0115159599,((Bembecia_ichneumoniformis:0.0948674435,Synanthedon_formicaeformis:0.1131995465)100:0.1287327600,Sesia_apiformis:0.1660244392)100:0.0639392395)96:0.0528160290,((Ancylis_achatana:0.0936111621,(Apotomis_betuletana:0.0908587626,((Epiblema_foenella:0.0782342524,Rhyacionia_pinicolana:0.0814510003)60:0.0099584382,(((Epinotia_bilunana:0.0522812029,Epinotia_ramella:0.0556358575)99:0.0083945095,Epinotia_demarniana:0.0447819112)100:0.0115106899,(Epinotia_brunnichana:0.0581974540,Epinotia_nisella:0.0695049327)100:0.0116993228)100:0.0270505502)100:0.0216695440)88:0.0135012275)100:0.0204069269,(((Aphelia_paleana:0.0717792805,Cacoecimorpha_pronubana:0.0693823109)100:0.0147438256,(Pandemis_cinnamomeana:0.0461744451,Pandemis_corylana:0.0409451780)100:0.0411383915)99:0.0300152522,Tortricodes_alternella:0.0807218765)68:0.0125323055)53:0.0123452864)46:0.0098240268,(Aethes_cnicana:0.0567294838,Aethes_tesserana:0.0702221361)55:0.0382571689)100:9.9999986016,(((Chibiraga_houshuaii:0.1315300714,(Phlossa_conjucta:0.0712788768,(Quasithosea_sythoffi:0.0784826828,Setora_sinensis:0.0730503478)97:0.0120264361)100:0.0197962703)99:0.0619965959,((Cnidocampa_flavescens:0.0006827227,Monema_flavescens:0.0017640015)100:0.1114374271,((Latoia_hilarata:0.0843123249,Parasa_consocia:0.0949386232)100:0.0196562843,Parasa_lepida:0.1368181092)100:0.0320659494)100:0.0269004923)93:0.0277385409,Narosa_fulgens:0.1392033660)71:0.0157091944)55:0.0140482997,(((((Amesia_sanguiflua:0.0501313118,Erasmia_pulchella:0.0639360108)100:0.0227854321,(Eterusia_aedea:0.0515218333,Histia_rhodope:0.0683808860)100:0.0193383814)86:0.0103523899,Pidorus_atratus:0.1040694619)100:0.0760940388,(Illiberis_pruni:0.0901406842,Illiberis_ulmivora:0.0742303689)100:0.0575676818)99:0.0337037761,Phauda_flammans:0.1751976335)74:0.0156527513)84:0.0159350282,((((Chalcidica_minea:0.0830385616,Zeuzera_multistrigata:0.1206002912)100:0.0342155410,Endoxyla_cinereus:0.0844701945)100:0.0607077296,(Eogystia_hippophaecolus:0.1719816126,Urodus_decens:0.1946371854)86:0.0208340341)83:0.0124287912,((Choreutis_emplecta:0.1681088827,Parnassius_tianschanicus:0.1289081328)80:0.0175147579,(Plutella_armoraciae:0.1633060049,Paraclemensia_caerulea:0.2340679868)98:0.0284595921)76:0.0085201081)69:0.0087820403)76:0.0098361775,(Carposina_sasakii:0.1867052165,Sesia_siningensis:0.1851045248)77:0.0232949024)99:0.0540956131,((Ancylis_sativa:0.1243479717,((((Bactra_venosana:0.0813634078,Epinotia_rubiginosana:0.0903203389)99:0.0097563958,(((Celypha_flavipalpana:0.0278783468,Celypha_sp.:0.0284356462)100:0.0175880913,Phiaris_dolosana:0.0418333254)100:0.0129056588,Olethreutes_sp.:0.0513065436)100:0.0184063945)100:0.0157070735,Meiligma_sp.:0.0706288292)100:0.0229368509,((((Cydia_pomonella:0.0648567808,Leguminivora_glycinivorella:0.0724328578)100:0.0170093762,((Grapholita_delineana:0.0813527758,Matsumuraeses_phaseoli:0.0712405589)52:0.0090040175,((Grapholita_dimorpha:0.0294352063,Grapholita_molesta:0.0284188206)100:0.0374454499,Grapholita_funebrana:0.0910475851)99:0.0157151683)52:0.0054267234)95:0.0096849505,Thaumatotibia_leucotreta:0.1019626643)89:0.0090667554,((Retinia_pseudotsugaicola:0.0806347575,Rhyacionia_leptotubula:0.0971142586)100:0.0138499668,Spilonota_lechriaspis:0.1182756764)89:0.0086469909)100:0.0107885953)46:0.0038519079)44:0.0048153881,(Kennelia_xylinana:0.1132837823,Loboschiza_koenigiana:0.0777573555)53:0.0134436904)100:0.0193069030)70:0.0078910342)97:0.0117540566,(Cochylidia_moguntiana:0.0885964538,(Cochylimorpha_cultana:0.0710918588,Eugnosta_dives:0.0831416640)100:0.0311663348)100:0.0152076244);
+
+TIME STAMP
+----------
+
+Date and time: Wed Dec 18 00:59:38 2024
+Total CPU time used: 11189.56599 seconds (3h:6m:29s)
+Total wall-clock time used: 1276.608696 seconds (0h:21m:16s)
+
