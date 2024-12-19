@@ -82,7 +82,7 @@ Therefore, the dataset was pruned by removing sequences that were much
 longer (i.e. 3-4k nucleotides longer than the majority). This was about
 10 sequences and helped the alignment to have less gaps.
 
-(Previously, most alignmemts had ~60% gaps on average).
+(Previously, most alignments had ~60% gaps).
 
 ``` r
 pruned = read.tree("18s_pruned_aligned.fasta.treefile")
@@ -118,7 +118,7 @@ Most of the outgroup taxa are near each other as desired. However, they
 are in the middle of the phylogeny for some reason (perhaps this is
 because MAFFT adjusted the order). However, while this “looks” weird, it
 is not actually significant to the topology of the tree, so I will
-reorder for future analysis.
+reorder for future analyses.
 
 More concerning is that *Thyridopteryx* is clearly far removed from the
 remainder of its outgroup brethren. Further inverstigation reveals that
@@ -126,7 +126,7 @@ it is not in Tineoidea as BLAST promised; therefore, a more closely
 related species to Apoditrysia might be chosen instead.
 
 Finally, an analysis of the sequences reveals that
-*Epichoristodes_acerbella* has a very sparce alignment. Thus, I will
+*Epichoristodes_acerbella* has a very sparse alignment. Thus, I will
 remove it as it is uninformative in its current state. This can be seen
 in the produced tree in which Epichoristodes stands out from the rest of
 the taxa.
@@ -287,7 +287,7 @@ tree itself.
 So how sensitive is the is the base ML tree to ablation? 25 species were
 removed at random from the tree, and two ways of re-aligning the data
 were completed. The first was a “clipping” of previous alignments; that
-is, the alignment of the 75 remaining species did not change, and less
+is, the alignment of the 76 remaining species did not change, and less
 sequences were used to construct the tree. The second is an actual
 re-alignment of all kept species.
 
@@ -338,7 +338,7 @@ print(TreeDistance(tocomp_trees, tocomp_trees))
 
 Clearly, the realigned version has more differences to the base and
 clipped trees than the base tree has to the clipped tree. This indicates
-that IQTree is very sensitive to the alignment of the data.
+that IQTree is sensitive to the alignment of this dataset.
 
 We can also visually compare the clipped and realigned trees using the
 same distance metric as the previous example (that is, recording the
@@ -521,12 +521,12 @@ model. More than one gene is therefore preferable to build a strong
 model. This was shown via the difference in quality between the 18S and
 mitochondria base ML trees. Further mitochondria dataset analyses showed
 that the Bayesian GTR tree was more robust than the ML tree to ablation,
-removal of outgroups, and realignment of data subsets. The largest
-challenge was data processing. In particular, curating a dataset that
-would have better bootstrap support and posterior probabilities compared
-to the 18S dataset proved to be a challenge. Future directions could
-include testing a different clade, more and/or different genes, and
-other phylogenetic tree inferance software such as RAxML.
+and realignment of data subsets. The largest challenge was data
+processing. In particular, curating a dataset that would have better
+bootstrap support and posterior probabilities compared to the 18S
+dataset proved to be a challenge. Future directions could include
+testing a different clade, more and/or different genes, and other
+phylogenetic tree inferance software such as RAxML.
 
 # References
 
