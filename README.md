@@ -92,7 +92,7 @@ nodelabels(pruned$node.label)
 
 ![](final_project.markdown_strict_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
-And a histogram of the bootstrap supports for this tree:
+And a histogram of the bootstrap supports for this new tree:
 
 ``` r
 hist(as.integer(pruned$node.label), xlab="Bootstrap support", main="")
@@ -100,7 +100,7 @@ hist(as.integer(pruned$node.label), xlab="Bootstrap support", main="")
 
 ![](final_project.markdown_strict_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
-As one can see, while the support it is still not ideal, the histogram
+As one can see, while the support is still not ideal, the histogram
 appears to be much better.
 
 Now, to do another sanity check, one can observe the location of the
@@ -122,8 +122,8 @@ reorder for future analyses.
 
 More concerning is that *Thyridopteryx* is clearly far removed from the
 remainder of its outgroup brethren. Further inverstigation reveals that
-it is not in Tineoidea as BLAST promised; therefore, a more closely
-related species to Apoditrysia might be chosen instead.
+it is not in Tineoidea as BLAST promised; therefore, a different
+outgroup species might be a better choice.
 
 Finally, an analysis of the sequences reveals that
 *Epichoristodes_acerbella* has a very sparse alignment. Thus, I will
@@ -198,8 +198,8 @@ style="width:100.0%;height:125.0%" alt="HKY 18S" />
 <figcaption aria-hidden="true">HKY 18S</figcaption>
 </figure>
 
-Note that the posterior probability of each branch is very low – most of
-them are below 0.2.
+Note that the posterior probability of each branch is very low – most
+posteriors are below 0.2.
 
 Therefore, it remained clear that more data was needed in order to
 create a more robust tree. Espeland et al. (2018) created a phylogeny of
@@ -481,7 +481,7 @@ alt="GTR Realigned Ablation BI Model" />
 Model</figcaption>
 </figure>
 
-Clearly, both have slightly reduced posterior probablilities compared to
+Clearly, both have slightly reduced posterior probablities compared to
 the base BI model.
 
 ``` r

@@ -90,7 +90,7 @@ nodelabels(pruned$node.label)
 
 ```
 
-And a histogram of the bootstrap supports for this tree:
+And a histogram of the bootstrap supports for this new tree:
 
 ```{r}
 
@@ -98,7 +98,7 @@ hist(as.integer(pruned$node.label), xlab="Bootstrap support", main="")
 
 ```
 
-As one can see, while the support it is still not ideal, the histogram appears to be much better.
+As one can see, while the support is still not ideal, the histogram appears to be much better.
 
 Now, to do another sanity check, one can observe the location of the outgroup taxa (in red).
 
@@ -111,7 +111,7 @@ plot(pruned,tip.color=colors)
 
 Most of the outgroup taxa are near each other as desired. However, they are in the middle of the phylogeny for some reason (perhaps this is because MAFFT adjusted the order). However, while this "looks" weird, it is not actually significant to the topology of the tree, so I will reorder for future analyses. 
 
-More concerning is that _Thyridopteryx_ is clearly far removed from the remainder of its outgroup brethren. Further inverstigation reveals that it is not in Tineoidea as BLAST promised; therefore, a more closely related species to Apoditrysia might be chosen instead.
+More concerning is that _Thyridopteryx_ is clearly far removed from the remainder of its outgroup brethren. Further inverstigation reveals that it is not in Tineoidea as BLAST promised; therefore, a different outgroup species might be a better choice.
 
 Finally, an analysis of the sequences reveals that _Epichoristodes_acerbella_ has a very sparse alignment. Thus, I will remove it as it is uninformative in its current state. This can be seen in the produced tree in which Epichoristodes stands out from the rest of the taxa.
 
@@ -156,7 +156,7 @@ t = read.nexus("bayes_HKY.nex")
 
 ![HKY 18S](bayes_HKY.tre.jpg){#id .class width=100% height=125%}
 
-Note that the posterior probability of each branch is very low -- most of them are below 0.2.
+Note that the posterior probability of each branch is very low -- most posteriors are below 0.2.
 
 Therefore, it remained clear that more data was needed in order to create a more robust tree. Espeland et al. (2018) created a phylogeny of butterflies (closely related to Apoditrysia) and provided a list of probes. Python was used to randomly sample 15% of the probes. The sampled probes were then used in nBLAST. It was observed that the CO1 gene (Cytochrome c oxidase I) was well-sampled within _Apoditrysia_; moreover, a number of species had complete mitochondria gene sequences that contained CO1. Therefore, a complete mitochondria sequence was used as a probe in nBLAST. 
 
@@ -317,7 +317,7 @@ rb_realign = read.nexus("rb_mito_abl_GTR.tre")
 
 ![GTR Realigned Ablation BI Model](rb_mito_abl_GTR.tre.jpg){#id .class width=100% height=125%}
 
-Clearly, both have slightly reduced posterior probablilities compared to the base BI model.
+Clearly, both have slightly reduced posterior probablities compared to the base BI model.
 
 ```{r}
 tocomp_trees = structure(list(BI_Base = rb_gtr, Clipped = rb_clip , Realigned = rb_realign), class = 'multiPhylo')
